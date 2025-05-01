@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* الخلفية بيضاء */
+  direction: rtl;
+  text-align: right;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+h1 {
+  color: #000000; /* النص أسود قاتم */
+  font-size: 24px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #000000; /* النص أسود قاتم */
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e0ffe0;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+h2 {
+  color: #000000;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+}
