@@ -1,10 +1,9 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #ffffff; /* الخلفية بيضاء */
+  background-color: #f2f2f2;
   direction: rtl;
   text-align: right;
   padding: 20px;
-  margin: 0;
 }
 
 .container {
@@ -14,29 +13,11 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-}
-
-.logo {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.logo img {
-  width: 150px;
-  height: auto;
-}
-
-h1 {
-  color: #000000; /* النص أسود قاتم */
-  font-size: 24px;
-  text-align: center;
 }
 
 label {
   display: block;
   margin-top: 15px;
-  color: #000000; /* النص أسود قاتم */
 }
 
 input, select, button {
@@ -55,24 +36,21 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
-  background-color: #45a049;
-}
-
 #result {
   margin-top: 30px;
   padding: 15px;
   background-color: #e0ffe0;
   border: 1px solid #4CAF50;
   border-radius: 5px;
-  font-size: 16px;
 }
 
-h2 {
-  color: #000000;
+/* إضافة الخلفية الذهبية */
+body {
+  background-color: #FFD700; /* اللون الذهبي */
+  background-image: linear-gradient(45deg, #FFD700, #FFCC00); /* تأثير التدرج للون الذهبي */
 }
 
-p {
-  color: #333;
-  font-size: 16px;
+h1 {
+  color: #333; /* نص باللون الأسود الداكن */
+  font-size: 24px;
 }
